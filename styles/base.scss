@@ -1,0 +1,48 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding-bottom: 10rem;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+#__next {
+  padding: 2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // Width is not affected by padding or border
+}
+
+details {
+  border: 1px solid black;
+  padding: .5rem .5rem 0 .5rem;
+  margin-top: .5rem;
+}
+
+summary {
+  font-weight: bold;
+  margin: -.5rem -.5rem 0;
+  padding: .5rem;
+  background-color: #eaeaea;
+}
+
+details[open] {
+  padding: .5rem 1rem;
+}
+
+details[open] summary {
+  border-bottom: 1px solid gray;
+  margin: -0.5rem -1rem 0.5rem -1rem;
+}

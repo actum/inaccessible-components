@@ -17,7 +17,7 @@ export default function Accordion() {
   ]
 
   return (
-    <div className="a-accordion">
+    <div className="accordion">
       {data.map((item) => <AccordionPanel key={item.title} title={item.title} text={item.text} />)}
     </div>
   );

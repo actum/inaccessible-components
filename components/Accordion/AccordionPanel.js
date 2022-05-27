@@ -6,18 +6,18 @@ export default function AccordionPanel({ title, text }) {
   const handleMouseDown = () => setIsOpen(!isOpen)
 
   return (
-    <div className={`a-accordion__item ${isOpen ? 'a-accordion__item--open' : ''}`}>
-      <div className="a-accordion__item-content">
+    <div className={`accordion__item ${isOpen ? 'accordion__item--open' : ''}`}>
+      <div className="accordion__item-content">
         {text}
       </div>
       <header
-        className="a-accordion__item-header"
+        className="accordion__item-header"
         aria-expanded={isOpen ? 'true' : 'false'}
         aria-selected={isOpen ? 'true' : 'false'}
         onMouseDown={handleMouseDown}
       >
-        <p className="a-accordion__item-text">{title}</p>
-        <IconArrow className="a-accordion__item-icon"/>
+        <p className="accordion__item-text">{title}</p>
+        <IconArrow className="accordion__item-icon"/>
       </header>
     </div>
   )
