@@ -26,6 +26,7 @@ export default function Breadcrumb() {
         {data.items.map((item, index) => (
           <li key={item.id} className="a-breadcrumb__list-item">
             <a href={item.url} className="a-breadcrumb__link" aria-current={data.items.length === index + 1 ? 'page' : undefined}>{item.text}</a>
+            {index !== data.items.length - 1 && (<span className="a-breadcrumb__separator" aria-hidden="true">/</span>)}
           </li>
         ))}
       </ol>

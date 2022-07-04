@@ -12,13 +12,8 @@
     gap: 1rem;
   }
 
-  &__list-item {
-    &:not(:last-child) {
-      &::after {
-        content: "/" / "";
-        margin-left: 1rem;
-      }
-    }
+  &__separator {
+    margin-left: 1rem;
   }
 
   &__link {
