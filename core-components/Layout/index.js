@@ -12,11 +12,12 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="ACTUM Collection of inaccessible components used for education purposes" />
       </Head>
-      <div className="container">
-        { asPath !== '/' && <Header /> }
-
-        {children}
-      </div>
+      <main>
+        <div className="container">
+          { asPath !== '/' && <Header /> }
+          {children}
+        </div>
+      </main>
     </>
   )
 }
