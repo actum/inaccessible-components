@@ -12,7 +12,7 @@ export default function PageModal() {
       <Layout>
         <h1>Modal window</h1>
 
-        <p>This page contains the inaccessible version of the component including the description of issues, additional considerations, and also the accessible version of the component for comparison.</p>
+        <p>This page contains the inaccessible version of the component.</p>
 
         <h2>Inaccessible version</h2>
 
