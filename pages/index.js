@@ -27,6 +27,7 @@ export default function Home() {
         <ul>
         <li><Link href="/page-accordion">Accordion</Link></li>
         <li><Link href="/page-breadcrumb">Breadcrumb</Link></li>
+        <li><Link href="/page-modal-window">Modal window</Link></li>
         </ul>
       </Layout>
     </>
