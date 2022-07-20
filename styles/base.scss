@@ -16,7 +16,11 @@ body {
 }
 
 #__next {
-  padding: 2rem;
+  padding: 1rem;
+
+  @include media-breakpoint-up(md) {
+    padding: 2rem;
+  }
 }
 
 *,
