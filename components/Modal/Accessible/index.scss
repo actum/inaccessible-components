@@ -1,0 +1,54 @@
+.a-modal {
+  max-height: 100%;
+  overflow: auto;
+
+  &__wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, .8);
+    justify-content: center;
+    align-items: center;
+
+    &--open {
+      display: flex;
+    }
+  }
+
+  &__content {
+    position: relative;
+    background: #fefefe;
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+  }
+
+  &__title {
+    margin-top: 0;
+  }
+
+  &__close-btn {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+  }
+
+  a, button {
+    &:focus {
+      outline: 2px solid black;
+      outline-offset: 2px;
+    }
+  }
+}
+
+// This will be set on body
+.modal-open {
+  overflow: hidden;
+}
