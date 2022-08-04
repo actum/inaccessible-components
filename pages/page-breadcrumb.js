@@ -43,7 +43,7 @@ export default function PageBreadcrumb() {
 
         <details>
           <summary>The links separators create a redundant and potentially distracting verbosity for screen reader users.</summary>
-          To prevent screen readers announement of the visual separators between links, they should be added via CSS.
+          To prevent screen readers announement of the visual separators between links, they should be added via CSS or hidden from assistive technologies.
         </details>
 
         <details>
