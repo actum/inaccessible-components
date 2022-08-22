@@ -40,6 +40,10 @@ summary {
   margin: -.5rem -.5rem 0;
   padding: .5rem;
   background-color: #eaeaea;
+
+  code {
+    background-color: #f6f6f6;
+  }
 }
 
 details[open] {
@@ -49,4 +53,11 @@ details[open] {
 details[open] summary {
   border-bottom: 1px solid gray;
   margin: -0.5rem -1rem 0.5rem -1rem;
+}
+
+code {
+  display: inline-block;
+  padding: 0.1rem 0.25rem;
+  background: #e9e9e9;
+  border: 1px solid black;
 }
