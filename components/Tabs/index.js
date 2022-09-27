@@ -15,7 +15,7 @@ export default function Tabs() {
     {
       id: 'panel-angular',
       title: 'Angular',
-      text: 'AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by <a href="https://en.wikipedia.org/wiki/Google">Google</a> and a community of individuals and corporations.'
+      text: 'AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications. It was maintained mainly by <a href="https://www.apple.com/">Google</a> and a community of individuals and corporations.'
     },
   ]
 

@@ -1,0 +1,54 @@
+.a-tabs {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__list-item {
+    padding: 1rem;
+    user-select: none;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      border-bottom-color: black;
+      background-color: rgb(218, 218, 218);
+    }
+
+    &:focus {
+      outline: 2px solid black;
+      outline-offset: 2px;
+    }
+
+    &--active {
+      color: white;
+      background-color: black;
+      border-bottom: 1px solid rgb(230, 230, 230);
+      outline: 1px solid black;
+
+      &:hover {
+        background-color: black;
+      }
+    }
+  }
+
+  &__panel {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+
+    a {
+      color: rgb(0, 0, 255);
+    }
+  }
+
+  &__panel-container {
+    margin-top: 10px;
+    border: 2px solid black;
+    padding: 2rem;
+  }
+}
