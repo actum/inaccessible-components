@@ -30,6 +30,7 @@ export default function Home() {
         <li><Link href="/page-modal-window">Modal window</Link></li>
         <li><Link href="/page-checkbox">Checkbox</Link></li>
         <li><Link href="/page-tabs">Tabs</Link></li>
+        <li><Link href="/page-radio">Radio group</Link></li>
         </ul>
       </Layout>
     </>
